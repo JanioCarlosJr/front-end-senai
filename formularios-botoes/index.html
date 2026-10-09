@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario de Inscrição de Workshop</title>
+    </head>
+    <body>
+        <main>
+            <section id="inscricao">
+
+                <h2>Ficha inscrição no Workshop</h2>
+                <p>Preencha os dados abaixo:</p>
+                
+                <form action="#" method="POST">
+                    <fieldset>
+
+                    <legend><b>1 - Informações pessoais</b></legend>   
+                    
+                    <label for="campo-nome">Nome completo:</label><br>
+                    <input type="text" name="nome_completo" id="campo-nome" placeholder="Informe seu nome" required size="40">
+                    
+                    <br><br>
+
+                    <label for="campo-email">Email pessoal:</label><br>
+                    <input type="text" name="email_pessoal" id="campo-email" placeholder="Informe seu e-mail" required size="40">
+
+                    <br><br>
+
+                    <label for="campo-telefone">Telefone pessoal:</label><br>
+                    <input type="tel" name="telefone_pessoal" id="campo-telefone" placeholder="Informe seu telefone">
+
+                    <br><br>
+
+                    <label for="campo-data-nascimento">Data de nascimento:</label><br>
+                    <input type="date" name="data_nascimento" id="campo-data-nascimento">
+                    
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend><b>2 - Preferencias do Workshop</b></legend>
+
+                        <label for="campo-curso">Selecione o Workshop desejado:</label>
+
+                        <br>
+
+                        <select name="selecao-cursos" id="campo-curso" required>
+                        <option value="">Selecione uma opção:</option>
+                        <option value="front">Front-end</option>
+                        <option value="back">Back-end</option>
+                        <option value="mobile">Mobile</option> 
+                        </select>
+
+                        <br>
+
+                        <p><b>Selecione o turno do Workshop</b></p>
+
+                        <input type="radio" name="turno-escolhido" id="campo-turno-manha" value="manha" checked>
+                        <label for="campo-turno-manha">Turno da Manhã</label>
+                        
+                        <br>
+
+                        <input type="radio" name="turno-escolhido" id="campo-turno-tarde" value="tarde">
+                        <label for="campo-turno-tarde">Turno da Tarde</label>
+
+                        <br>
+
+                        <input type="radio" name="turno-escolhido" id="campo-turno-noite" value="noite">
+                        <label for="campo-turno-noite">Turno da Noite</label>
+
+                        <br>
+
+                        <p><b>Tópicos de Interesse</b></p>
+                        <input type="checkbox" name="topicos[]" id="topico_html" value="html">
+                        <label for="topico_html">HTML</label><br>
+
+                        <input type="checkbox" name="topicos[]" id="topico_css" value="css">
+                        <label for="topico_css">CSS</label><br> 
+
+                        <input type="checkbox" name="topicos[]" id="topico_js" value="js">
+                        <label for="topico_js">JS</label><br>
+
+                        <br>
+
+                        <label for="campo-observacao">Observações</label> <br>
+                        <textarea name="observacoes_adicionais" id="campo-observacao" rows="4" cols="50" placeholder="Informe aqui seus dados pessoais pertinentes ao evento..."></textarea>
+                        
+                    </fieldset>
+
+                    <br><br>
+
+                    <button type="submit"><b>Confirmar meu cadastro</b></button>
+
+                    <button type="reset"><b>Limpar Formulario</b></button>
+
+                                        
+                </form>
+
+            </section>
+
+        </main>
+        
+    </body>
+
+</html>
