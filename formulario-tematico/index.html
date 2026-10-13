@@ -74,7 +74,7 @@
                         <br><br>
 
                         <label for="campo-data-nascimento">Data de Nascimento</label><br>
-                        <input type="date" name="data-nascimento" id="campo-data-nascimento">
+                        <input type="date" name="data-nascimento" id="campo-data-nascimento" required>
 
                         <br><br>
 
@@ -108,16 +108,33 @@
                         <label for="kuluyaku_html">Kulu-Ya-Ku</label>
                         <br><br>
 
+                        <label for="cidade-favorita"><b>Qual sua cidade favorita?</b></label><br>
+                        <input list="cidade" id="cidade-favorita" name="cidade-favorita">
+                        <datalist id="cidade">
+                            <option value="Vila Kokoto"></option>
+                            <option value="Cidade Minegarde"></option>
+                            <option value="Vila Jumbo"></option>
+                            <option value="Astera"></option>
+                            <option value="Seliana"></option>
+                            <option value="Vila Kamura"></option>
+                            <option value="Posto Avançado Elgado"></option>                        
+                        </datalist>
+
+                        <br><br>
+
                         <label for="campo-observacao"><b>Observações</b></label><br>
                         <textarea name="observacoes" id="campo-observacao" rows="4" cols="50" placeholder="Caso precise de alguma observação adicional, pode escrever aqui."></textarea>
                         
+
+                        <br><br>
+
+                        <button type="submit"><b>Vamos a caça!</b></button>
+                        <button type="reset"><b>Redefir campos</b></button>
+                        
                     </fieldset>
 
-                    <br><br>
-
-                    <button type="submit"><b>Vamos a caça!</b></button>
-
-                    <button type="reset"><b>Redefir campos</b></button>
+                    
+                
                 </form>
 
             </section>
