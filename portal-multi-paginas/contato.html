@@ -15,5 +15,47 @@
                 <a href="#sobre">Sobre a gente</a>
             </nav>
         </header>
+        <hr>
+        <main>
+            <h2>Contato e Newsletter</h2>
+            <form action="#" method="POST">
+                    <fieldset>
+
+                        <legend><b>Preencha o Formulario abaixo.</b></legend>
+
+                        <label for="campo-nome">Nome Completo</label><br>
+                        <input type="text" name="nome_completo" id="campo-nome" placeholder="Informe seu nome" required size="50">
+
+                        <br><br>
+
+                        <label for="campo-email">Email</label><br>
+                        <input type="text" name="email_cadastro" id="campo-email" placeholder="Informe seu email" required size="50">
+
+                        <br><br>
+
+                        <label for="campo-data-nascimento">Data de Nascimento</label><br>
+                        <input type="date" name="data-nascimento" id="campo-data-nascimento" required>
+
+                        <br><br>
+
+                        <h3>Selecione o tipo de cadastro.</h3>
+                        
+                        <input type="checkbox" name="cadastro[]" id="contato_html" value="contato">
+                        <label for="contato_html">Contato</label>
+                        <br>
+
+                        <input type="checkbox" name="cadastro[]" id="newsletter_html" value="newsletter">
+                        <label for="newsletter_html">Newsletter</label>
+                        <br>
+
+                        <br><br>
+                        
+                        <button type="submit"><b>Cadastrar</b></button>
+                        <button type="reset"><b>Limpar campos</b></button>    
+            <hr>
+            <footer>
+                <p>© 2026 ZinNet Internet Banda Larga • Desenvolvido por Jânio Carlos • Todos os direitos reservados</p>
+            </footer>
+        </main>
     </body>
 </html>
