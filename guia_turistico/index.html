@@ -1,113 +1,174 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Guia Turistico - Ervália</title>
-    </head>
-    <body>
-        <header>
-            <h1>Conheça Ervália</h1>
-            <p>Conhecida como a "terra do café", cercada por belas montanhas, cachoeiras e áreas de preservação da Mata Atlântica.</p>
-            <nav>
-                 <a href="#história">História</a>
-                 <a href="#pontos_túristicos">Pontos Turisticos</a>
-                 <a href="#dicas_uteis">Dicas Úteis</a>
-                 <a href="#gastronomia">Gastronomia</a>
-                 <a href="#contato">Contato</a>                                
-            </nav>
-            <hr>            
-        </header>
-        <main>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Guia Turistico - Ervália</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho-pagina">
+            <h1 class="titulo-pagina">Guia Turístico: Ervália</h1>
+            <p class="slogan-pagina">Conhecida como a "terra do café", cercada por belas montanhas, cachoeiras <br> e
+                áreas de preservação da Mata Atlântica.</p>
+        </div>
+        <nav>
+            <a href="#história">História</a>
+            <a href="#pontos_túristicos">Pontos Turisticos</a>
+            <a href="#dicas_uteis">Dicas</a>
+            <a href="#gastronomia">Gastronomia</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+    </header>
+    <main>
+        <div class="historia">
             <section id="história">
-                <h2>História</h2>
-                <p>Município localizado na Zona da Mata de Minas Gerais, começou no início do século XIX com a chegada de desbravadores e famílias vindas de regiões mineradoras como Ouro Preto e Mariana em busca de terras férteis e ouro de aluvião. <br> O primeiro núcleo familiar fixou-se na região liderado por Lucas Pereira Franklin e sua esposa Policena Miranda, que construíram um armazém e uma pequena capela dedicada a São Sebastião, dando origem ao povoado chamado Capela Nova.
-                   </p>
-                   <figure>
-                     <img src="imagens/cidade.png" alt="Vista aerea da cidade de Ervália, com destaque na avenida principal, e da igreja matriz da cidade." width="300">
-                         <figcaption><h6>Figura 1 - Vista aerea da cidade com a torre do relogio.</h6></figcaption>
-                   </figure>                
+                <h2 class="titulo-historia">História</h2>
+                <p>Município localizado na Zona da Mata de Minas Gerais, começou no início do século XIX com a chegada
+                    de desbravadores e famílias vindas de regiões mineradoras como Ouro Preto e Mariana em busca de
+                    terras férteis e ouro de aluvião. <br> O primeiro núcleo familiar fixou-se na região liderado por
+                    Lucas Pereira Franklin e sua esposa Policena Miranda, que construíram um armazém e uma pequena
+                    capela dedicada a São Sebastião, dando origem ao povoado chamado Capela Nova.
+                </p>
+                <div class="imagem-historia">
+                    <img src="imagens/cidade.png"
+                        alt="Vista aerea da cidade de Ervália, com destaque na avenida principal, e da igreja matriz da cidade."
+                        width="400">
+                    <figcaption>
+                        <h6>Figura 1 - Vista aerea da cidade com a torre do relogio.</h6>
+                    </figcaption>
+                </div>
             </section>
-            <hr>
-            <section id="pontos_túristicos">
-                <h2>Pontos Turisticos</h2>
-                    <p>Ervália, conhecida como a "Garota da Serra" na Zona da Mata de Minas Gerais, oferece atrações ligadas ao ecoturismo, montanhismo e tranquilidade do interior.</p>
-                    <h3>Principais Pontos Turisticos</h3>
-                    <ul>
-                        <li>
-                          <p><b>Cachoeira da Usina (Usina Velha)</b></p>
-                          <figure>
-                                <img src="imagens/cachoeira-da-usina.jpg" alt="Vista da cachoeira da usina, com sua formação rochosa e quedas de agua caindo sobre as rochas." width="200">
-                                     <figcaption><h6>Figura 2 - Cachoeira da usina.</h6></figcaption>
-                          </figure>
-                          <p> Um dos principais cartões-postais da cidade, conta com queda d’água, área de lazer para famílias, infraestrutura com quiosque, bar, churrasqueira, piscina e espaço kids. Fica na Zona Rural (Estrada Ervália x Muriaé) e abre diariamente das 8h às 17h.</p>
-                          <aside><p><i>Sempre que volto para a cidade, eu tenho que passar nesse lugar! Lindissimo!! - Suzana, 43 anos.</i></p></aside>                        
-                        </li>
-                        <li>
-                           <p><b>Pico do Cruzeiro e Pico do Itajuru</b></p>
-                           <figure>
-                                 <img src="imagens/pico_do_cruzeiro.jpg" alt="Pico do cruzeiro, com montanhas no fundo e bastante vegetação ao redor do pico." width="200">
-                                     <figcaption><h6>Figura 3 - Pico do Cruzeiro.</h6></figcaption> 
-                           </figure>                        
-                           <p>Destinos muito procurados por trilheiros, ciclistas e amantes de vistas panorâmicas. Oferecem mirantes com belas paisagens da região próxima à Serra do Brigadeiro.</p>                          
-                        </li>
-                        <li>
-                            <p><b>Praça do Rosário</b></p>
-                            <figure>
-                                     <img src="imagens/praça_do_rosario.jpg" alt="Vista da praça com a igreja do rosario em destaque, uma fonte no meio e veiculos nas ruas que circulam a praça." width="200">
-                                        <figcaption><h6>Figura 4 - Praça do Rosário</h6></figcaption>
-                            </figure>
-                            <p>Ponto histórico e de convivência no município, frequentemente utilizado para eventos culturais e encontros tradicionais da comunidade (como exposições de carros antigos).</p>
-                        </li>                    
-                    </ul>
-            </section>
-            <hr>
-            <section id="gastronomia">
-                <article>
-                    <h2>Gastronomia</h2>
-                    <p>A culinária em Ervália (MG) é marcada pela rica tradição da gastronomia mineira e da Zona da Mata, destacando-se por pratos típicos, feiras, confeitarias locais e eventos gastronômicos.</p>                    
-                    <ul>                    
-                        <li> 
-                        <p><b>Festival Gastronômico Sabores da Mata</b></p>
-                         <figure>
-                             <img src="imagens/saboresdamata.jpg" alt="Cartaz do festival gastronomico sabores da mata, destacando os dias do evento, 19 e 20 de julho, e com varios pratos enfeitando o cartaz" width="200">
-                                  <figcaption><h6>Figura 5 - Cartaz do Festival Gastronomico Sabores da Mata.</h6></figcaption>
-                         </figure>
-                         <p>Realizado na Praça Monsenhor Joaquim, o evento celebra a culinária local, a cultura e a música regional, com a participação de produtores e chefs da cidade (a sua 2ª edição ocorreu nos dias 19 e 20 de junho de 2026)</p>
-                        </li>
-                         <li>
-                         <p><b>Curso de Produção de Doce de Leite:</b></p>
-                         <p>Promovido pelo Sindicato dos Produtores Rurais de Ervália e FAEMG/SENAR em parceria com a Prefeitura, valoriza a doçaria tradicional mineira (com edição programada de 6 a 10 de outubro de 2026)</p>
-                         </li>
-                    </ul>
-                </article>
-            </section>
-            <hr>
-            <section id="dicas_uteis">                
-                <h2>Dicas Úteis</h2>
-                <p>A seguir, segue uma série de algumas dicas úteis para curtir a cidade.</p>
+        </div>
+
+        <section id="pontos_turisticos">
+            <div class="pontos-turisticos">
+                <h2 class="titulo-pontos-turisticos">Pontos Turisticos</h2>
+                <p>Ervália, conhecida como a "Garota da Serra" na Zona da Mata de Minas Gerais, oferece atrações ligadas
+                    ao ecoturismo, montanhismo e tranquilidade do interior.</p>
+                <h3>Principais Pontos Turisticos</h3>
+                <ul>
+
+                    <li>
+                        <p><b>Cachoeira da Usina (Usina Velha)</b></p>
+                        <div class="pontos-turisticos-principais">
+                            <div class="texto-ponto-turistico">
+                                <p> Um dos principais cartões-postais da cidade, conta com queda d’água, área de lazer
+                                    para famílias, infraestrutura com quiosque, bar, churrasqueira, piscina e espaço
+                                    kids. Fica na Zona Rural (Estrada Ervália x Muriaé) e abre diariamente das 8h às
+                                    17h.</p>
+                            </div>
+
+                            <div class="texto-ponto-turistico">
+                                <img src="imagens/cachoeira-da-usina.jpg"
+                                    alt="Vista da cachoeira da usina, com sua formação rochosa e quedas de agua caindo sobre as rochas."
+                                    width="200">
+                            </div>
+
+                        </div>
+
+
+
+                        <aside>
+                            <p><i>Sempre que volto para a cidade, eu tenho que passar nesse lugar! Lindissimo!! -
+                                    Suzana, 43 anos.</i></p>
+                        </aside>
+                    </li>
+
+                    <li>
+                        <p><b>Pico do Cruzeiro e Pico do Itajuru</b></p>
+                        <figure>
+                            <img src="imagens/pico_do_cruzeiro.jpg"
+                                alt="Pico do cruzeiro, com montanhas no fundo e bastante vegetação ao redor do pico."
+                                width="200">
+                            <figcaption>
+                                <h6>Figura 3 - Pico do Cruzeiro.</h6>
+                            </figcaption>
+                        </figure>
+                        <p>Destinos muito procurados por trilheiros, ciclistas e amantes de vistas panorâmicas. Oferecem
+                            mirantes com belas paisagens da região próxima à Serra do Brigadeiro.</p>
+                    </li>
+                    <li>
+                        <p><b>Praça do Rosário</b></p>
+                        <figure>
+                            <img src="imagens/praça_do_rosario.jpg"
+                                alt="Vista da praça com a igreja do rosario em destaque, uma fonte no meio e veiculos nas ruas que circulam a praça."
+                                width="200">
+                            <figcaption>
+                                <h6>Figura 4 - Praça do Rosário</h6>
+                            </figcaption>
+                        </figure>
+                        <p>Ponto histórico e de convivência no município, frequentemente utilizado para eventos
+                            culturais e encontros tradicionais da comunidade (como exposições de carros antigos).</p>
+                    </li>
+                </ul>
+        </section>
+        </div>
+
+        <section id="gastronomia">
+            <article>
+                <h2>Gastronomia</h2>
+                <p>A culinária em Ervália (MG) é marcada pela rica tradição da gastronomia mineira e da Zona da Mata,
+                    destacando-se por pratos típicos, feiras, confeitarias locais e eventos gastronômicos.</p>
                 <ul>
                     <li>
-                         <p><b>Como Chegar:</b> O acesso principal é feito pelas rodovias BR-356 (entre Coimbra e Muriaé) e BR-120. Fica a aproximadamente 265 km de Belo Horizonte.</p>
+                        <p><b>Festival Gastronômico Sabores da Mata</b></p>
+                        <figure>
+                            <img src="imagens/saboresdamata.jpg"
+                                alt="Cartaz do festival gastronomico sabores da mata, destacando os dias do evento, 19 e 20 de julho, e com varios pratos enfeitando o cartaz"
+                                width="200">
+                            <figcaption>
+                                <h6>Figura 5 - Cartaz do Festival Gastronomico Sabores da Mata.</h6>
+                            </figcaption>
+                        </figure>
+                        <p>Realizado na Praça Monsenhor Joaquim, o evento celebra a culinária local, a cultura e a
+                            música regional, com a participação de produtores e chefs da cidade (a sua 2ª edição ocorreu
+                            nos dias 19 e 20 de junho de 2026)</p>
                     </li>
                     <li>
-                         <p><b>Eventos:</b>  A cidade realiza festas populares, eventos religiosos e comemorações tradicionais ao longo do ano.</p>                         
+                        <p><b>Curso de Produção de Doce de Leite:</b></p>
+                        <p>Promovido pelo Sindicato dos Produtores Rurais de Ervália e FAEMG/SENAR em parceria com a
+                            Prefeitura, valoriza a doçaria tradicional mineira (com edição programada de 6 a 10 de
+                            outubro de 2026)</p>
                     </li>
-                    <li>
-                        <p><b>Trilhas:</b>A região oferece percursos famosos para ciclismo de montanha e caminhadas mapeados em plataformas como o Wikiloc Ervália.</p>
-                    </li>
-                </ul>               
-            </section>
-            <hr>            
-            <section id="contato">
-                <h3>Fale conosco!</h3>
-                <p>Clique no botão abaixo, para um contato turistico!</p>
-                <a href="mailto:contatoturistico@senai.com.br">Clique aqui!</a>
-            </section>
-            <hr>            
-            <footer>
-                <p>© 2026 Portal Guia Turistico - Ervália • Projeto Acadêmico SENAI MG • Desenvolvido por Jânio Carlos — Curso Técnico em Informática para Internet.</p>
-                <a href="#">Voltar ao Topo</a>
-            </footer>
-        </main>        
-    </body>
+                </ul>
+            </article>
+        </section>
+
+        <section id="dicas_uteis">
+            <h2>Dicas Úteis</h2>
+            <p>A seguir, segue uma série de algumas dicas úteis para curtir a cidade.</p>
+            <ul>
+                <li>
+                    <p><b>Como Chegar:</b> O acesso principal é feito pelas rodovias BR-356 (entre Coimbra e Muriaé) e
+                        BR-120. Fica a aproximadamente 265 km de Belo Horizonte.</p>
+                </li>
+                <li>
+                    <p><b>Eventos:</b> A cidade realiza festas populares, eventos religiosos e comemorações tradicionais
+                        ao longo do ano.</p>
+                </li>
+                <li>
+                    <p><b>Trilhas:</b>A região oferece percursos famosos para ciclismo de montanha e caminhadas mapeados
+                        em plataformas como o Wikiloc Ervália.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h3>Fale conosco!</h3>
+            <p>Clique no botão abaixo, para um contato turistico!</p>
+            <a href="mailto:contatoturistico@senai.com.br">Clique aqui!</a>
+        </section>
+
+        <footer>
+            <p>© 2026 Portal Guia Turistico - Ervália • Projeto Acadêmico SENAI MG • Desenvolvido por Jânio Carlos —
+                Curso Técnico em Informática para Internet.</p>
+            <a href="#">Voltar ao Topo</a>
+        </footer>
+    </main>
+</body>
+
 </html>

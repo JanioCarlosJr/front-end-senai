@@ -1,0 +1,91 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    max-width: 800px;
+    margin: auto;    
+    background-image:url(imagens/background-verde-menta.png);            
+}
+
+.cabecalho-pagina {
+    text-align: center;    
+    font-size: 15px;
+    background-color: rgb(2, 107, 72);
+    padding: 13px;
+    line-height: 16px;
+    color: white;    
+}
+
+.titulo-pagina {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.slogan-pagina {
+    text-align: center;
+    font-style: italic;
+}
+
+nav{
+    background-color:beige;
+    text-align: center;
+    padding: 8px;
+    word-spacing: 19px;
+    font-size: 14px;       
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;    
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+.historia {
+    padding: 25px;
+    background-color: rgb(237, 255, 233);
+    display: flex;        
+}
+
+.titulo-historia {
+    font-size: 35px;
+    text-align: left;    
+}
+
+.imagem-historia {
+   text-align: center;
+
+}
+
+.pontos-turisticos {
+    padding: 25px;
+    background-color: rgb(237, 255, 233);  
+
+}
+
+.titulo-pontos-turisticos {
+    font-size: 35px;
+    text-align: left;
+    
+}
+
+.pontos-turisticos-principais {
+    background-color: white;
+    padding: 10px;
+    display: flex; 
+    justify-content:center;
+    align-items: center;   
+    flex-direction: row;                 
+}
+
+.texto-ponto-turistico {
+    background-color:white;
+    padding: 20px;
+}
+
+
