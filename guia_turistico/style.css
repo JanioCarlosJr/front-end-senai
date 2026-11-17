@@ -1,91 +1,142 @@
-body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
-    max-width: 800px;
-    margin: auto;    
-    background-image:url(imagens/background-verde-menta.png);            
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.cabecalho-pagina {
-    text-align: center;    
-    font-size: 15px;
-    background-color: rgb(2, 107, 72);
-    padding: 13px;
-    line-height: 16px;
-    color: white;    
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    width: 70%;
+    margin: 0 auto;    
+    background-image:url(imagens/background-verde-menta.png);
+    display: flex;
+    justify-content: center;    
+    flex-direction: column; 
+    gap: 10px;           
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkgreen;    
+    gap: 10px;
 }
 
 .titulo-pagina {
-    font-size: 40px;
-    font-weight: bolder;
+    text-align: center;
+    padding: 5px;
+    font-size: 2rem;  
+    color: white;  
 }
 
 .slogan-pagina {
     text-align: center;
     font-style: italic;
+    font-size: 0.8rem;
+    color: white;
 }
 
-nav{
-    background-color:beige;
-    text-align: center;
-    padding: 8px;
-    word-spacing: 19px;
-    font-size: 14px;       
+nav {
+    background-color: white;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
-a {
+nav a {
     text-decoration: none;
-    color: black;
-    font-weight: bold;    
+    color: darkgreen;
+    font-weight: 600;
 }
 
-h2 {
-    text-align: center;
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
 }
 
-p {
-    font-size: 14px;
-}
-
-.historia {
-    padding: 25px;
-    background-color: rgb(237, 255, 233);
-    display: flex;        
+#historia {  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: 20px;
+    padding-bottom: 25px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .titulo-historia {
-    font-size: 35px;
-    text-align: left;    
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+#historia p {
+    font-size: 1rem;
 }
 
 .imagem-historia {
-   text-align: center;
-
+    padding: 5px;
 }
 
-.pontos-turisticos {
-    padding: 25px;
-    background-color: rgb(237, 255, 233);  
+.legenda-imagem-historia {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.6rem;
+}
 
+#pontos_turisticos {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: 20px;
+    padding-bottom: 25px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#pontos_turisticos p {
+    font-size: 1rem;
+}
+
+#pontos_turisticos h3 {
+    font-size: 1.2rem;
 }
 
 .titulo-pontos-turisticos {
-    font-size: 35px;
-    text-align: left;
-    
-}
-
-.pontos-turisticos-principais {
-    background-color: white;
+    font-size: 1.8rem;
     padding: 10px;
-    display: flex; 
-    justify-content:center;
-    align-items: center;   
-    flex-direction: row;                 
 }
 
-.texto-ponto-turistico {
-    background-color:white;
-    padding: 20px;
+.lista-pontos-turisticos {
+    background-color: white;    
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
 }
+
+.lista-pontos-turisticos li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+
+
+
+
+
 
 
