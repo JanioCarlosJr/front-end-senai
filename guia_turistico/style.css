@@ -134,6 +134,21 @@ main {
     padding: 15px;
 }
 
+.comentario-visitante {
+    padding: 5px;
+    background-color: lightblue;
+    border-left: 8px solid lightseagreen;
+    width: 95%;    
+}
+
+.comentario-visitante i{
+    font-size: 0.8rem;
+}
+
+.nome-visitante {
+    font-weight: 700;
+}
+
 
 
 
